@@ -8,12 +8,21 @@ Nigeria is a country with 37 states - Federal Capital Territory included- and a 
 - Data collection:
     All the required libraries were imported and data was imported from the repository since the NCDC COVID-19 official website could not be accessed. 
 - Data cleaning and preparation:
-    Data were cleaned by dropping columns with a null value and zero value
+    Data were cleaned by dropping columns with a null value and zero value, removing commas from numerical values
     Data were also converted to appropriate datatypes
     Nigeria data was extracted from the world COVID-19 record for analysis
     The information was transposed to give it a better presentation
+    Pandas DataFrame for Daily Confirmed, Recovered and deaths Cases were gotten
 - Data analysis
-    
+    Plot that shows the Top 10 states in terms of Confirmed Covid cases by Laboratory test and Discharged Covid cases were generated
+    Plot the top 10 Death cases
+    A line plot for the total daily confirmed, recovered, and death cases in Nigeria was generated.
+    The daily infection rate was determined to show the derivate of the total cases on a line plot
+    The maximum infection rate for a day was calculated signifying the number of new cases and the date found.
+    The relationship between the external dataset and the NCDC COVID-19 dataset was determined and a line plot of the top 10 confirmed        cases and the overall community vulnerability index on the same axis was generated.
+    The two datasets above were combined on a common column and the relationship between them was generated.
+    A regression plot between two variables (Confirmed Cases and Population Density) was generated to visualize the linear relationships.
+  
 - Conclusion
   
  # 2. The second: Dealing with datetime features
