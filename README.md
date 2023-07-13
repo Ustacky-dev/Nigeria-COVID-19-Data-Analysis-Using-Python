@@ -22,6 +22,4 @@ Nigeria is a country with 37 states - Federal Capital Territory included- and a 
     The relationship between the external dataset and the NCDC COVID-19 dataset was determined and a line plot of the top 10 confirmed        cases and the overall community vulnerability index on the same axis was generated.
     The two datasets above were combined on a common column and the relationship between them was generated.
     A regression plot between two variables (Confirmed Cases and Population Density) was generated to visualize the linear relationships.
-  
-- Conclusion
     
