@@ -14,13 +14,13 @@ Nigeria is a country with 37 states - Federal Capital Territory included- and a 
         #Budget data.csv
         #RealGDP.csv
 
-- Data cleaning and preparation:
+- # Data cleaning and preparation:
     Data were cleaned by dropping columns with a null value and zero value, removing commas from numerical values
     Data were also converted to appropriate datatypes
     Nigeria data was extracted from the world COVID-19 record for analysis
     The dataframe was transposed to give it a better presentation
     Pandas DataFrame for Daily Confirmed, Recovered and deaths Cases were gotten
-- Data analysis
+- # Data analysis
     A plot that shows the Top 10 states in terms of Confirmed Covid cases by Laboratory test and Discharged Covid cases were generated
     A bar plot for the total daily confirmed, recovered, and death cases in Nigeria were generated.
     The daily infection rate was determined to show the derivate of the total cases on a bar plot
@@ -30,4 +30,14 @@ Nigeria is a country with 37 states - Federal Capital Territory included- and a 
     A regression plot between two variables (Confirmed Cases and Population Density) was generated to visualize the linear relationships.
     Analysis on the real GDP data shows that the GDP fell from 413801074.72 Pre-Covid_19 to 15890000.0 during Q2 2020, a %change of 96%. A visualization was also presented.
     A bar plot showing the initial and revised budget for each state was presented.
+- # Insight
+    The global covid_19 dataset consists of 289 rows and 1144 valid columns while Nigeria's data consist of 1 row and 506 valid columns
+    From the bar chart in Figure 1, Lagos has the most confirmed cases in Nigeria with  26708 cases while Delta state has the least cases with 1843 cases.
+    From the bar chart in Figure 2, Lagos has the most discharged cases in Nigeria with  24037 cases while Delta state has the least cases with 1737 cases.
+    From the bar chart in Figure 3, Lagos has the most death cases in Nigeria with  236 cases while Delta state has the least cases with 36 cases.
+    Figure 4 shows that very few death cases in Nigeria 
+    The maximum infection rate for a day was 103799897 and this happened on 3/9/23.
+    Analysis of the real GDP data shows that the GDP fell from 413801074.72 Pre-Covid_19 to 15890000.0 during Q2 2020, a %change of 96%.
+
+
     
